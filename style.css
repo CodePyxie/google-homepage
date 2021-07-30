@@ -74,10 +74,28 @@ float: right;
 footer{
 
   margin-top: auto;
-  background-color: grey;
+  background-color: #f2f2f2;
   min-width: 100vw;
+  font-family: arial,sans-serif;
+
 }
 footer a{
   display: inline-block;
-  padding-bottom: 20px;
+  padding: 20px 0;
+  text-decoration: none;
+  color: #5f6368;
+  font-size: 14px;
+ }
+
+ #bottom-left-nav {
+   float:left;
+ }
+ #bottom-left-nav a{
+   padding-left: 15px;}
+
+ #bottom-right-nav {
+   float:right;
+ }
+ #bottom-right-nav a{
+   padding-right: 15px;
  }
