@@ -1,7 +1,11 @@
 
 
 body{
-  height: 100%vh;
+  margin:0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
 }
 nav{
 width: 100%vw;
@@ -54,16 +58,26 @@ float: right;
 .logo{
   padding-top: 109px;
   display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 
 #search{
   display:flex;
-  margin:auto;
+  margin:0 auto;
+  margin-top: 40px;
   width: 450px;
-  margin-top: 30px;
   height: 40px;
   border-radius: 30px;
   border: 1px solid #dfe1e5;
 
 }
+footer{
+
+  margin-top: auto;
+  background-color: grey;
+  min-width: 100vw;
+}
+footer a{
+  display: inline-block;
+  padding-bottom: 20px;
+ }
