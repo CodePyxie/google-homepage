@@ -5,15 +5,16 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: arial,sans-serif;
 
 }
+/* Navigation Bar */
 nav{
 width: 100%vw;
 margin-top: 15px;
 padding-bottom: 50px;
 }
 nav a {
-  font-family: arial,sans-serif;
   color:pink;
   font-size: 13px;
   color: #000;
@@ -54,16 +55,23 @@ float: right;
 .nav-icon:hover{
   opacity: 1;
 }
-
+/* Logo */
 .logo{
   padding-top: 109px;
   display: block;
   margin: 0 auto;
 }
+/* Search Form */
+
+.google-form {
+text-align: center;
+}
+
+
 
 #search{
   display:flex;
-  margin:0 auto;
+  margin: 0  auto;
   margin-top: 40px;
   width: 450px;
   height: 40px;
@@ -71,17 +79,33 @@ float: right;
   border: 1px solid #dfe1e5;
 
 }
+
+.search-buttons input {
+  padding: 10px 15px;
+  display: inline-flex;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: #5F6368
+}
+
+#lucky-button {
+  margin-left: 15px;
+}
+
+/* Footer */
 footer{
 
   margin-top: auto;
   background-color: #f2f2f2;
   min-width: 100vw;
   font-family: arial,sans-serif;
+  border-top: 1px solid #e4e4e4;
 
 }
 footer a{
   display: inline-block;
-  padding: 20px 0;
+  padding: 12px 0;
   text-decoration: none;
   color: #5f6368;
   font-size: 14px;
@@ -91,7 +115,11 @@ footer a{
    float:left;
  }
  #bottom-left-nav a{
-   padding-left: 15px;}
+   padding-left: 20px;}
+
+  #bottom-left-nav a:first-child{
+     padding-left: 30px;
+   }
 
  #bottom-right-nav {
    float:right;
