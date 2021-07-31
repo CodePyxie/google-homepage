@@ -17,7 +17,7 @@ padding-bottom: 50px;
 nav a {
   color:pink;
   font-size: 13px;
-  color: #000;
+  color: #5f6368;
   text-decoration: none;
   display:inline-block;
   margin-top: 10px;
@@ -27,6 +27,9 @@ nav a {
 }
 #left-nav a{
   padding-left: 15px;
+}
+#left-nav a:first-child{
+  padding-left: 30px;
 }
 #right-nav{
 float: right;
@@ -38,7 +41,7 @@ float: right;
   padding-left: 0px;
 }
 #right-nav button{
-  margin: 0 15px;
+  margin: 0 40px 0 15px;
   border: 1px solid #4285f4;
   background-color: #4285f4;
   color: white;
@@ -74,8 +77,12 @@ float: right;
   min-width: 400px;
   height: 40px;
   border-radius: 30px;
-  border: 2px solid #dfe1e5;
+  border: 1px solid #dfe1e5;
   position: relative;
+
+}
+.search-buttons{
+margin-top: -35px;
 }
 
 .search-buttons input {
@@ -84,22 +91,23 @@ float: right;
   border: none;
   border-radius: 4px;
   margin-bottom: 20px;
+  margin-top: 0px;
   color: #5F6368
+
 }
 
 #lucky-button {
   margin-left: 15px;
 }
 
-.search-icons{
-  opacity: .30;
 
-}
 .search-icons .material-icons{
  display: inline-flex;
  justify-content: center;
 position: relative;
 bottom: 30px;
+opacity: .30;
+
 }
 
 #icon-search{
@@ -150,5 +158,8 @@ footer a{
    float:right;
  }
  #bottom-right-nav a{
-   padding-right: 15px;
+   padding-right: 20px;
  }
+ #bottom-right-nav a:last-child{
+    padding-right: 40px;
+  }
