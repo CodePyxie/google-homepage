@@ -17,10 +17,14 @@ padding-bottom: 50px;
 nav a {
   color:pink;
   font-size: 13px;
-  color: #5f6368;
+  color: #000;
+  opacity: .75;
   text-decoration: none;
   display:inline-block;
   margin-top: 10px;
+}
+nav a:hover{
+  text-decoration: underline;
 }
 #left-nav{
   float: left;
@@ -142,6 +146,9 @@ footer a{
   text-decoration: none;
   color: #5f6368;
   font-size: 14px;
+ }
+ Footer a:hover{
+   text-decoration: underline;
  }
 
  #bottom-left-nav {
