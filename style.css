@@ -63,9 +63,6 @@ float: right;
 }
 /* Search Form */
 
-.google-form {
-text-align: center;
-}
 
 
 
@@ -74,10 +71,11 @@ text-align: center;
   margin: 0  auto;
   margin-top: 40px;
   width: 450px;
+  min-width: 400px;
   height: 40px;
   border-radius: 30px;
-  border: 1px solid #dfe1e5;
-
+  border: 2px solid #dfe1e5;
+  position: relative;
 }
 
 .search-buttons input {
@@ -92,6 +90,33 @@ text-align: center;
 #lucky-button {
   margin-left: 15px;
 }
+
+.search-icons{
+  opacity: .30;
+
+}
+.search-icons .material-icons{
+ display: inline-flex;
+ justify-content: center;
+position: relative;
+bottom: 30px;
+}
+
+#icon-search{
+justify-content: flex-start;
+width: 210px;
+}
+#icon-mic{
+justify-content: flex-end;
+width: 210px;
+}
+
+.google-form {
+text-align: center
+
+}
+
+
 
 /* Footer */
 footer{
